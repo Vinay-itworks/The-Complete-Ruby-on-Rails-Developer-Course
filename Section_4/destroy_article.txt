@@ -1,0 +1,3 @@
+Worked with articles to destroy article
+
+Here https://github.com/Vinay-itworks/alpha-blog/commit/ec242f6662af84d9cc612a069fa3cbef26d52116
