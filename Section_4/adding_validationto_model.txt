@@ -1,0 +1,11 @@
+
+class Article < ApplicationRecord
+  validates :title, presence: true, length: {minimum: 6, maximum: 100}
+  validates :description, presence: true, length: {minimum: 10, maximum: 300}
+end
+
+limits the values of
+  title to minimum of 6 char and maximum of 100 char
+  and description to minimum of 10 char and maximum of 300 char
+
+Here https://github.com/Vinay-itworks/alpha-blog/commit/c8e4ff3eac928c40e45e0beb6a0ceadb9c34830e
