@@ -1,0 +1,23 @@
+Created a model name article
+https://github.com/Vinay-itworks/alpha-blog/commit/7e43a8e70c46187a2338a9a4157493858532c37f
+
+Worked with the model article in rails console to created articles.
+With 
+    $rails console
+
+
+  1.
+    Article.create(title: "first article", 
+            description: "Description of first article") # make sure Article is capitalized if using this method
+
+  2.
+    article = Article.new
+    article.title = "second article"
+    article.description = "description of second article"
+    article.save
+
+  3.
+    article = Article.new(title: "third article", description: "description of third article")
+    article.save
+
+Three different ways to create a model from rails console.

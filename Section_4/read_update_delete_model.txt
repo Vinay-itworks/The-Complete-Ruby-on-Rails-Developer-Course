@@ -1,0 +1,25 @@
+In rails console
+1. To read the model
+
+    article = Article.find(1)
+    article.title # to display (get) the title
+    article.description # to display (get) the description
+
+  to get the first or last model use
+
+    Article.first # display the first article in the articles table
+    Article.last # display the last article in the articles table
+
+
+2. To update the model
+
+    article = Article.find(id of article you want to edit)
+    article.title = "new title"
+    article.description = "new description"
+    article.save
+
+
+3. To delete the model
+
+    article = Article.find(id of article you want to delete)
+    article.destroy
