@@ -1,0 +1,3 @@
+Worked with refactoring the code to follow DRY -Don't Repeat Yourself method to improve code
+
+Here https://github.com/Vinay-itworks/alpha-blog/commit/bc4fe2c0e7e7e9461af5c1a57cc5be9163c34039
