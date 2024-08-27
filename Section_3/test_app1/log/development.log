@@ -248,3 +248,12 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 424ms (Views: 422.4ms | ActiveRecord: 0.0ms | Allocations: 95219)
 
 
+Started GET "/" for 127.0.0.1 at 2024-08-26 11:30:53 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 2019)
+Completed 200 OK in 38ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 2337)
+
+

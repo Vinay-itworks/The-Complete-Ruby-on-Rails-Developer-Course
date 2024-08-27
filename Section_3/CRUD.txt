@@ -1,0 +1,75 @@
+
+Database
+
+C - Create articles
+R - Read articles
+U - Update articles
+D - Delete articles
+
+----------------------------------------------
+
+Rails uses a middleman called Active Record known as ORM 
+  for Object Relational Mapper to communicate between 
+  Rails application code and the database
+
+We can simply write Ruby code which gets translated to SQL queries, 
+  and then your application interacts with the database 
+  this all is done using this models layer.
+
+----------------------------------------------
+
+Articles resource:
+1. 'articles' table
+2. 'articles' model
+3. 'articles' controller
+4. views
+
+
+Scaffold generator command to create an article model (with two attributes), articles controller, 
+  views for articles and migration file to create articles table:
+
+  $rails generate scaffold Article title:string description:text
+
+Command to see routes presented in a viewer-friendly way:
+
+  $rails routes --expanded
+
+
+
+The line resources :articles in the config/routes.rb file provides the following routes:
+
+- index of articles (GET request)
+
+- new article (GET)
+
+- create article (POST)
+
+- edit article (GET)
+
+- update article (PUT and PATCH)
+
+- show article (GET)
+
+- delete article (DELETE)
+
+
+
+From UI perspective ->
+
+- index lists all the articles in the articles table in the database of the app
+
+- new article deals with the form to enter in new article details
+
+- create handles the submission of the items in the new article form
+
+- edit article deals with the form to enter edited information for an existing article
+
+- update article deals with the submission of the edit article form
+
+- show article displays an individual article based on selection
+
+- delete article deletes an article from the articles table
+
+
+
+Worked here https://github.com/Vinay-itworks/test_app/commit/2a50d8ea89d19be0943801ef4833af475e42c2fc
